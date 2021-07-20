@@ -1,0 +1,29 @@
+{
+  "name": "getter-cache",
+  "version": "1.0.0",
+  "description": "make object getter property cacheable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava --reporter=html --reporter=text"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lakca/getter-cache.git"
+  },
+  "keywords": [
+    "getter",
+    "property",
+    "cache",
+    "lazy"
+  ],
+  "author": "lakca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lakca/getter-cache/issues"
+  },
+  "homepage": "https://github.com/lakca/getter-cache#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nyc": "^15.1.0"
+  }
+}
