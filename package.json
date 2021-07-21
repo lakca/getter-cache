@@ -4,7 +4,7 @@
   "description": "make object getter property cacheable.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava --reporter=html --reporter=text"
+    "test": "nyc --reporter=html --reporter=text ava"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "getter",
+    "class",
+    "object",
+    "inheritance",
     "property",
     "cache",
     "lazy"

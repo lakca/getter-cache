@@ -1,6 +1,27 @@
 # getter-cache
 
-> Make object getter property cacheable.
+> Make object/class getter property cacheable.
+
+## Usage
+
+```js
+// import
+const createGetterCache = require('getter-cache')
+// default random cache key (store cache info)
+const getterCache = createGetterCache()
+// specify cache key
+const getterCache = createGetterCache({ cacheKey: '_CACHE_KEY' })
+```
+```js
+// object (default all own getter properties)
+getterCache(obj)
+
+// class (default all own getter properties)
+getterCache.class(cls)
+
+// specify properties, even inherited ones.
+getterCache(obj, 'foo', 'bar')
+```
 
 ## Example
 
